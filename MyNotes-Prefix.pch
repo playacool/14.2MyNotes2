@@ -1,0 +1,22 @@
+//
+//  MyNotes-Prefix.pch
+//  14.2MyNotes2
+//
+//  Created by 杨冬 on 14/11/10.
+//  Copyright (c) 2014年 杨冬. All rights reserved.
+//
+
+#ifndef _4_2MyNotes2_MyNotes_Prefix_pch
+#define _4_2MyNotes2_MyNotes_Prefix_pch
+
+
+#endif
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define ARC_ENABLED
